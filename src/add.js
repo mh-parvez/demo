@@ -1,1 +1,5 @@
-console.log("added somthing on about file at 6.25AM");
+console.log("add somthing on about file 6.33 AM");
+
+function add(...arg) {
+  return arg.reduce((acc, curr) => acc + curr, 0);
+}
